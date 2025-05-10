@@ -1,70 +1,56 @@
-# Getting Started with Create React App
+🎬 Movie Explorer
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Movie Explorer** is a web application built with React that allows users to explore trending movies, search for movies by name, and manage their list of favorite movies.  
+The app uses **The Movie Database (TMDB) API** to fetch movie data in real time.
 
-## Available Scripts
+Users can:
 
-In the project directory, you can run:
+- Search movies
+- Add/remove movies to/from favorites
+- View their favorites on a separate page
+- Enjoy a clean, responsive interface built with **Material UI**
 
-### `npm start`
+## ✨ Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+✅ Fetch trending movies from TMDB API  
+✅ Search for movies by name, released year  
+✅ Add movies to a favorites list  
+✅ View favorite movies on a separate page  
+✅ Remove movies from favorites  
+✅ Toggle between **dark mode** and **light mode**  
+✅ Responsive UI using **Material UI**  
+✅ Footer included on all pages  
+✅ Clean and user-friendly interface
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🛠️ Tech Stack
 
-### `npm test`
+- React
+- React Router
+- Material UI (MUI)
+- Context API (React state management)
+- The Movie Database API (TMDB)
+- Git 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 📡 API Usage
 
-### `npm run build`
+This project uses the **ThumbAPI** to fetch movie details dynamically.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+The app retrieves the following movie information from ThumbAPI:
+- 🎬 Movie name
+- 🗓️ Release year
+- 📝 Description
+- 🖼️ Movie poster image
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 🔑 API Key
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+To use ThumbAPI, you need an API key.
 
-### `npm run eject`
+Follow these steps to obtain your API key:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. Go to [ThumbAPI official website](https://thumbapi.com) (replace with actual link if different).
+2. Create a free account and log in.
+3. Navigate to the **API Keys** section in your dashboard.
+4. Generate a new API key.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 🌐 Live Demo
+👉 https://movie-explorerproject.vercel.app/
